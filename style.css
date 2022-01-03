@@ -1,0 +1,210 @@
+img{
+    max-width:100%;
+    height:auto;
+    display:block; 
+    
+    width:100%; 
+    height:30%; 
+}
+
+
+.form-container label{
+    display: inline-block;
+    width: 120px; 
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 35px
+
+}
+
+.input{
+    border-radius: 10px;
+    min-width:280px;
+    font-size:20px;
+    text-align:center;
+    
+}
+.borda{
+   
+    border: solid;
+    border-top: 2px;
+    padding: 15px;
+    text-align:center;
+    display: block;
+    /* height: 20vh; */
+    border: 2px solid black;
+    justify-content: space-around;
+    margin-bottom: 20px;
+   
+}
+label{
+    font-size:20px;
+}
+H3{
+    text-align:center;
+}
+
+
+.conteudo{
+    display: inline-block;
+    width: 50%;
+    border: 1px solid gray;
+    
+
+}
+.conteudo>div{
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100px;
+}
+.conteudo>div:nth-child(2n-1){
+    justify-content: start;
+
+}
+
+.conteudo img{
+    height: 100px;
+    width: auto;
+    display:inline-block;
+
+}
+
+.moradia{
+    background-color:brown;
+    color:white;
+}
+
+.alimentacao{
+    background-color:turquoise;
+    color:white;
+}
+
+.saude{
+    background-color:wheat;
+    color:white;
+}
+
+.transporte{
+    background-color:thistle;
+    color:white;
+}
+.educacao{
+    background-color:midnightblue;
+    color:white;
+}
+
+.resumo{
+    display: inline-block;
+    width: 44%;
+    margin-left: 5%;
+    vertical-align: top;
+    border: 1px solid gray;
+    
+
+}
+.body-resumo{
+    padding: 0px 10px;
+}
+
+.body-resumo>h3{
+    text-align: left;
+
+}
+.body-resumo>div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-resumo{
+    color:white;
+    text-align: center;
+    
+}
+
+.vermelho{
+    background-color: #C45163;
+}
+
+.verde{
+    background-color: #8CC63F;
+}
+
+.footer-resumo>p{
+    white-space: pre-wrap;
+}
+
+.header{
+    background-color: lightgray;
+    height: 80px;
+    display:flex;
+    align-items:center;
+    justify-content: start;
+    padding: 20px;
+
+}
+.header>img{
+    height: 80px;
+    width: auto;
+}
+
+.titulo-moradia{
+    color:brown;
+}
+
+
+.titulo-alimentacao{
+    color:turquoise;
+   
+}
+
+.titulo-saude{
+    color:wheat;
+    
+}
+
+.titulo-transporte{
+    color:thistle;
+    
+}
+.titulo-educacao{
+    color:midnightblue;
+   
+}
+
+.conteiner{
+    margin: 80px;
+}
+.nomeResponsavel{
+    text-align: left;
+    padding-right: 59px;
+    margin-right: 41px;
+    margin-left: 88px;
+    height: 44px;
+
+  
+}
+
+.btn{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:#0074d9;
+    color:white;
+    min-width: 177px;
+}
+.form-control{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#button{
+    position: relative;
+    top: 2px;
+    left: 75px;
+}
+
